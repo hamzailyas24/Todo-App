@@ -33,8 +33,7 @@ class App extends Tasks {
             />
 
             <Button type="submit" variant="oulined" color="primary">
-              {" "}
-              Add Todo{" "}
+              Add Todo
             </Button>
           </form>
 
@@ -48,13 +47,15 @@ class App extends Tasks {
                 />
 
                 <div className={task.completed ? "task line_through" : "task"}>
-
                   {task.task}
-
                 </div>
 
-                <Button onClick={() => this.handleDelete(task._id)} color="secondary"> Delete </Button>
-
+                <Button
+                  onClick={() => this.handleDelete(task._id)}
+                  color="secondary"
+                >
+                  Delete
+                </Button>
               </Paper>
             ))}
           </div>
