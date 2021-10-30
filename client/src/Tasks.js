@@ -99,22 +99,4 @@ class Tasks extends Component {
     
 }
 
-// function Tasks() {
-    
-//     const [tasks, setTasks] = useState([]);
-//     const [currentTask, setCurrentTask] = useState("");
-
-//     useEffect(() => {
-
-//         getTasks().then(data => setTasks(data));
-
-
-
-//     }, []);
-
-//     return (
-//         <div>
-//             <h1> Tasks </h1>
-//         </div>
-//     );
-// }
+export default Tasks;
